@@ -91,4 +91,3 @@ With more time, I would focus on integrations test focusing on business rules an
 4. **Performance Testing**:
    - Test with large datasets to ensure the component remains performant
    - Test zooming and scrolling performance
-# timeline
