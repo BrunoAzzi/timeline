@@ -6,7 +6,7 @@ import Timeline from "@/components/timeline/Timeline"
 import timelineItems from "@/data/timelineItems"
 import type { TimelineItem, TimelineAppProps } from "@/types/timeline"
 
-export default function TimelineApp({}: TimelineAppProps) {
+export default function TimelineApp({ }: TimelineAppProps) {
   const [items, setItems] = useState<TimelineItem[]>(timelineItems)
 
   const handleItemUpdate = (updatedItem: TimelineItem) => {
